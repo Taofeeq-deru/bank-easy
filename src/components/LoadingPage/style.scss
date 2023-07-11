@@ -1,0 +1,64 @@
+.loading-page .logo-cont {
+  margin-top: 20%;
+
+  .logo {
+    -moz-animation: loadingP 3s forwards linear;
+    -webkit-animation: loadingP 3s forwards linear;
+    animation: loadingP 3s forwards linear;
+
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+}
+
+@-webkit-keyframes loadingP {
+  0% {
+    width: 50px;
+    opacity: 0.1;
+  }
+
+  70% {
+    width: 70px;
+    opacity: 1;
+  }
+
+  100% {
+    width: 99.99px;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes loadingP {
+  0% {
+    width: 50px;
+    opacity: 0.1;
+  }
+
+  70% {
+    width: 70px;
+    opacity: 1;
+  }
+
+  100% {
+    width: 99.99px;
+    opacity: 0;
+  }
+}
+
+@keyframes loadingP {
+  0% {
+    width: 50px;
+    opacity: 0.1;
+  }
+
+  70% {
+    width: 70px;
+    opacity: 1;
+  }
+
+  100% {
+    width: 99.99px;
+    opacity: 0;
+  }
+}

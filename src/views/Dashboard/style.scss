@@ -1,0 +1,75 @@
+.dashboard {
+  .card {
+    width: 100%;
+    // max-width: 350px;
+    height: 140px;
+    padding: 16px;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    &__type {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      margin-bottom: 0;
+    }
+    &__amount {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      h1 {
+        font-size: 24px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .transactions-title {
+    font-size: 16px;
+  }
+
+  .transactions {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    .transaction {
+      &__date {
+        font-size: 12px;
+        color: #1B1B1B;
+        margin-bottom: 8px;
+      }
+      &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      &__item {
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #0000000D;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 9px;
+      }
+      &__title {
+        font-size: 12px;
+        color: #1B1B1B;
+        font-weight: 300;
+        margin-bottom: 0;
+        text-transform: capitalize;
+      }
+      &__amount {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

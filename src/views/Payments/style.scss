@@ -1,0 +1,105 @@
+.payments {
+  h1 {
+    font-size: 16px;
+    margin-bottom: 48px;
+  }
+
+  .payment-types {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 18px;
+
+    &__item {
+      height: 60px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white;
+      border-radius: 5px;
+      border: 1px solid #D65382;
+      box-shadow: 0px 4px 4px 0px #0000001A;
+      cursor: pointer;
+      p {
+        font-size: 14px;
+        color: #1b1b1b;
+      }
+    }
+  }
+}
+
+.bulk-payment {
+  h1 {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .bulk-payment-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .file-input {
+      background: rgba(214, 83, 130, 0.05);
+      border: 1px dotted #0000004D;
+    }
+  }
+}
+
+.confirmation {
+  h1 {
+    font-size: 16px;
+    margin-bottom: 17px;
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+
+  &__title {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  &__amount {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    p {
+      font-size: 12px;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  h1, p {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+}
