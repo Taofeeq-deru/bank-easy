@@ -30,9 +30,9 @@ function Login() {
         {
           reason: "Account Funding",
           amount: 12000000,
-          date: new Date("April 21, 2023 14:00:00"),
-        },
-      ],
+          date: new Date("April 21, 2023 14:00:00")
+        }
+      ]
     });
     sessionStorage.setItem("user", user);
     navigate(ROUTES.dashboard);
@@ -42,6 +42,7 @@ function Login() {
     <div className="landing-page-container vh-100 vw-100 p-5">
       <div className="d-flex flex-column align-items-center w-100">
         <Logo size="md" />
+        Login!!!
         <form onSubmit={handleSubmit} className="mt-5 login-form">
           <Box sx={{ display: "flex", alignItems: "flex-end", width: "100%" }}>
             <AccountCircle sx={{ color: "action.active", mr: 1, my: 0.5 }} />
@@ -64,7 +65,7 @@ function Login() {
               display: "flex",
               alignItems: "flex-end",
               width: "100%",
-              marginTop: "16px",
+              marginTop: "16px"
             }}>
             <Lock sx={{ color: "action.active", mr: 1, my: 0.5 }} />
             <Input
