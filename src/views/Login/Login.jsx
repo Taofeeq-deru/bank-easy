@@ -42,7 +42,7 @@ function Login() {
     <div className="landing-page-container vh-100 vw-100 p-5">
       <div className="d-flex flex-column align-items-center w-100">
         <Logo size="md" />
-        Login!!
+        Login!
         <form onSubmit={handleSubmit} className="mt-5 login-form">
           <Box sx={{ display: "flex", alignItems: "flex-end", width: "100%" }}>
             <AccountCircle sx={{ color: "action.active", mr: 1, my: 0.5 }} />
